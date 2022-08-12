@@ -1,5 +1,6 @@
 ﻿using ApiCadastroUsuario.DTO;
 using Domain.Entidades;
+using Domain.Services.Interface;
 using Infra.Repository.RepositoryUsuario;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +10,10 @@ namespace ApiCadastroUsuario.Controllers
     [Route("[controller]")]
     public class CadastroUsuarioController : Controller
     {
-        public readonly IReporitoryUsuario reporitoryUsuario;
-        public CadastroUsuarioController(IReporitoryUsuario repository)
+        public readonly IServiceUsuario _servicoUsuario;
+        public CadastroUsuarioController(IServiceUsuario repository)
         {
-            reporitoryUsuario = repository;
+            _servicoUsuario = repository;
         }
 
         [HttpGet]
@@ -28,7 +29,7 @@ namespace ApiCadastroUsuario.Controllers
 
             var usuarioInsert = new Usuario(usuario.Nome, usuario.CPF, usuario.Email, usuario.DataNascimento, usuario.NumeroContado);
 
-            reporitoryUsuario.Adiciona(usuarioInsert);
+            _servicoUsuario.Cadastrar(usuarioInsert);
 
             return Json(new { mensagem = "Requisição chegou aqui blz?", dados = usuarioInsert });
         }

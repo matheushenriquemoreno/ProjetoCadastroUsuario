@@ -10,6 +10,8 @@ namespace IOC
         public static void RegistrarServicos(IServiceCollection services)
         {
             services.AddScoped<IReporitoryUsuario, RepositoryUsuario>();
+            
+
 
         }
     }

@@ -11,9 +11,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
       <PrivateAssets>all</PrivateAssets>
@@ -31,5 +33,7 @@
     <ProjectReference Include="..\Infra\Infra.csproj" />
     <ProjectReference Include="..\IOC\IOC.csproj" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

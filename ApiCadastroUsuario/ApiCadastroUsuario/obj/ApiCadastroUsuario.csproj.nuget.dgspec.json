@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj": {}
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj": {
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
+        "projectUniqueName": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
         "projectName": "ApiCadastroUsuario",
-        "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
-        "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\obj\\",
+        "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj"
+              "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj"
+              "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
+                "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj"
               },
-              "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj": {
-                "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj"
+              "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj": {
+                "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -83,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\obj\\",
+        "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,6 +127,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -149,21 +157,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj",
+        "projectUniqueName": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj",
-        "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\obj\\",
+        "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,8 +185,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj"
+              "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj"
               }
             }
           }
@@ -229,21 +237,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj": {
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj",
+        "projectUniqueName": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj",
         "projectName": "IOC",
-        "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj",
-        "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\obj\\",
+        "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -257,11 +265,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj"
+              "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj"
+              "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
+                "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj"
               }
             }
           }
@@ -302,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

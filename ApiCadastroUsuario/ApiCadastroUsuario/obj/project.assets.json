@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "FluentValidation/11.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -698,6 +707,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FluentValidation": "11.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.7"
         },
         "compile": {
@@ -740,6 +750,27 @@
     }
   },
   "libraries": {
+    "FluentValidation/11.2.0": {
+      "sha512": "KV1YBM8T4plLKmShjxfmHMF6X1lDuXgyqE+t8NYNxb7jmMbPnA3u30RsuXAf2NYMv0TBCUQguI2Z6W17c/Dh1A==",
+      "type": "package",
+      "path": "fluentvalidation/11.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.2.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -2077,6 +2108,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Domain >= 1.0.0",
+      "FluentValidation >= 11.2.0",
       "IOC >= 1.0.0",
       "Infra >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
@@ -2085,19 +2117,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus\\.nuget\\packages\\": {}
+    "C:\\Users\\mathe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
+      "projectUniqueName": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
       "projectName": "ApiCadastroUsuario",
-      "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
-      "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\ApiCadastroUsuario\\obj\\",
+      "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\ApiCadastroUsuario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2111,14 +2143,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj"
+            "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Infra\\Infra.csproj"
+            "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj": {
+              "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Infra\\Infra.csproj"
             },
-            "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj": {
-              "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\IOC\\IOC.csproj"
+            "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj": {
+              "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\IOC\\IOC.csproj"
             }
           }
         }
@@ -2133,6 +2165,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.2.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.7, )"
@@ -2166,7 +2202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
       }
     }
   }

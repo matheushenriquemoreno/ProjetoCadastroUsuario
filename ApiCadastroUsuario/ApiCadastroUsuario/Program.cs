@@ -1,3 +1,5 @@
+using Domain.Services.Implementacao;
+using Domain.Services.Interface;
 using Infra.Data;
 using IOC;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(opts => opts.UseSqlServer(@"Data Sou
 
 
 InversionControl.RegistrarServicos(builder.Services);
+
+builder.Services.AddScoped<IServiceUsuario, ServiceUsuario>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

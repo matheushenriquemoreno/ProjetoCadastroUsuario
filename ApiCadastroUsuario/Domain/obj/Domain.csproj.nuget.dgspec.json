@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {}
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
+    "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus\\source\\repos\\ApiCadastroUsuario\\Domain\\obj\\",
+        "projectPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjetosDoGitHub\\ProjetoCadastroUsuario\\ApiCadastroUsuario\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -66,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

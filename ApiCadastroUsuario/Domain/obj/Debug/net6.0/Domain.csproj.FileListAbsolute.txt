@@ -12,3 +12,17 @@ C:\Users\matheus\source\repos\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.
 C:\Users\matheus\source\repos\ApiCadastroUsuario\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\matheus\source\repos\ApiCadastroUsuario\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
 C:\Users\matheus\source\repos\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.dll
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\ref\Domain.dll
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.pdb
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\bin\Debug\net6.0\Domain.dll
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\bin\Debug\net6.0\ref\Domain.dll
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\bin\Debug\net6.0\Domain.pdb
+E:\ProjetosDoGitHub\ProjetoCadastroUsuario\ApiCadastroUsuario\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache

@@ -25,7 +25,15 @@ namespace Domain.Entidades
 
         public Endereco Endereco { get; set; }
 
-        public Usuario( string nome, string cPF, string email, DateTime dataNascimento, string numeroContado)
+        public DateTime? DataCadastro { get; protected set; }
+
+        public Usuario()
+        {
+            DataCadastro = DateTime.Now;
+        }
+
+        public Usuario( string nome, string cPF, string email, DateTime dataNascimento, string numeroContado) :
+            this()
         {
             Nome = nome;
             CPF = cPF;

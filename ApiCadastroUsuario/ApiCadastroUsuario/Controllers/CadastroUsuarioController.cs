@@ -26,10 +26,11 @@ namespace ApiCadastroUsuario.Controllers
         [HttpPost]
         public IActionResult Cadastrar([FromBody] UsuarioCadastroDTO usuario)
         {
+            var erros = new List<string>();
 
             var usuarioInsert = new Usuario(usuario.Nome, usuario.CPF, usuario.Email, usuario.DataNascimento, usuario.NumeroContado);
 
-            _servicoUsuario.Cadastrar(usuarioInsert);
+            _servicoUsuario.Cadastrar(usuarioInsert, out erros);
 
             return Json(new { mensagem = "Requisição chegou aqui blz?", dados = usuarioInsert });
         }
